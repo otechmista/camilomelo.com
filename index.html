@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Camilo Melo, Chief Technology Officer com experiência em arquitetura, cloud, IA aplicada, dados, FinOps e liderança tecnológica em ecossistemas B2B."
+    />
+    <meta name="author" content="Camilo Melo" />
+    <meta
+      name="keywords"
+      content="Camilo Melo, CTO, Chief Technology Officer, arquitetura de soluções, inteligência artificial, cloud, AWS, Azure, FinOps, liderança tecnológica, microsserviços, dados, analytics"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0B0C10" />
+    <meta name="color-scheme" content="dark" />
+    <title>Camilo Melo | CTO</title>
+
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Camilo Melo | Chief Technology Officer" />
+    <meta
+      property="og:description"
+      content="CTO com duas décadas em TI, 6 anos como CTO e foco em IA aplicada, arquitetura, cloud, dados, FinOps e transformação digital B2B."
+    />
+    <meta property="og:site_name" content="Camilo Melo" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:image" content="social-preview.svg" />
+    <meta property="og:image:type" content="image/svg+xml" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Camilo Melo | Chief Technology Officer" />
+    <meta
+      name="twitter:description"
+      content="Liderança tecnológica para ecossistemas B2B complexos: IA aplicada, cloud, arquitetura, dados e FinOps."
+    />
+    <meta name="twitter:image" content="social-preview.svg" />
+    <meta name="twitter:site" content="@otechmista" />
+    <meta name="twitter:creator" content="@otechmista" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Camilo Melo",
+        "jobTitle": "Chief Technology Officer",
+        "email": "mailto:camilotxm@gmail.com",
+        "url": "https://github.com/otechmista",
+        "sameAs": [
+          "https://linkedin.com/in/camilo-de-melo",
+          "https://github.com/otechmista",
+          "https://x.com/otechmista"
+        ],
+        "knowsAbout": [
+          "Chief Technology Officer",
+          "Arquitetura de Soluções",
+          "Inteligência Artificial",
+          "Cloud AWS",
+          "Cloud Azure",
+          "FinOps",
+          "Microsserviços",
+          "Analytics",
+          "Liderança tecnológica"
+        ]
+      }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              ivory: "#0B0C10",
+              paper: "#15161C",
+              graphite: "#F6F2EA",
+              muted: "#A9A39A",
+              line: "#2B2D35",
+              neon: "#E94B78",
+              cyan: "#8FDDE5",
+              lime: "#FFD6A5",
+            },
+            boxShadow: {
+              soft: "0 20px 60px rgba(0, 0, 0, 0.32)",
+              neon: "0 0 0 1px rgba(233, 75, 120, 0.24), 0 18px 50px rgba(233, 75, 120, 0.12)",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-ivory text-graphite antialiased">
+    <div class="fixed inset-0 -z-10 pointer-events-none">
+      <div class="absolute inset-0 bg-[linear-gradient(rgba(246,242,234,0.045)_1px,transparent_1px),linear-gradient(90deg,rgba(246,242,234,0.035)_1px,transparent_1px)] bg-[size:72px_72px] [mask-image:linear-gradient(to_bottom,black,transparent_72%)]"></div>
+      <div class="absolute right-[-10rem] top-[-10rem] h-[28rem] w-[28rem] rounded-full bg-neon/18 blur-3xl"></div>
+      <div class="absolute bottom-[10rem] left-[-16rem] h-[26rem] w-[26rem] rounded-full bg-cyan/16 blur-3xl"></div>
+    </div>
+    <canvas id="sphere-field" class="fixed inset-0 -z-[9] h-full w-full pointer-events-none" aria-hidden="true"></canvas>
+
+    <header class="sticky top-0 z-40 border-b border-line/80 bg-ivory/88 backdrop-blur-xl">
+      <div class="mx-auto flex w-[min(1120px,calc(100%-32px))] items-center justify-between gap-4 py-4">
+        <a href="#inicio" class="flex items-center">
+          <span>
+            <span class="block text-sm font-black leading-none">Camilo Melo</span>
+            <span class="mt-1 block text-xs font-semibold leading-none text-muted">Chief Technology Officer</span>
+          </span>
+        </a>
+
+        <button
+          class="menu-toggle rounded-xl border border-graphite/10 bg-paper px-3 py-2 text-sm font-bold text-graphite md:hidden"
+          type="button"
+          aria-expanded="false"
+          aria-controls="main-nav"
+        >
+          Menu
+        </button>
+
+        <nav id="main-nav" class="nav hidden items-center gap-1 md:flex" aria-label="Navegacao principal">
+          <a class="nav-link" href="#impactos">Impactos</a>
+          <a class="nav-link" href="#competencias">Competências</a>
+          <a class="nav-link" href="#experiencia">Experiência</a>
+          <a class="nav-link" href="#sobre">Sobre</a>
+          <a class="nav-link" href="#formacao">Formação</a>
+          <a class="nav-link" href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="inicio">
+      <section class="mx-auto grid w-[min(1120px,calc(100%-32px))] gap-12 pb-18 pt-8 md:pb-24 md:pt-12 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
+        <div class="reveal">
+          <p class="eyebrow">CTO | Arquitetura | Cloud | IA Aplicada</p>
+          <h1 class="mt-5 max-w-4xl text-5xl font-black leading-[0.95] tracking-tight sm:text-7xl">
+            Liderança tecnológica para ecossistemas B2B complexos.
+          </h1>
+          <p class="mt-7 max-w-2xl text-lg leading-8 text-muted">
+            Duas décadas em TI e 6 anos como CTO, com atuação em Saúde,
+            Benefícios Corporativos, integração de sistemas, analytics, cloud,
+            microsserviços e adoção prática de Inteligência Artificial.
+          </p>
+          <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+            <a class="button-primary" href="mailto:camilotxm@gmail.com"><i data-lucide="mail"></i>camilotxm@gmail.com</a>
+            <a class="button-secondary" href="https://linkedin.com/in/camilo-de-melo" target="_blank" rel="noreferrer"><i data-lucide="linkedin"></i>LinkedIn</a>
+          </div>
+        </div>
+
+        <aside class="reveal executive-snapshot rounded-[1.75rem] border border-line bg-paper p-5 shadow-soft">
+          <div class="snapshot-head flex items-start justify-between gap-4 border-b border-line pb-5">
+            <div>
+              <p class="text-sm font-bold text-muted">Objetivo</p>
+              <h2 class="mt-1 text-2xl font-black tracking-tight">Chief Technology Officer</h2>
+            </div>
+            <span class="rounded-full border border-neon/40 bg-neon/16 px-3 py-1 text-xs font-black text-graphite">OPEN</span>
+          </div>
+
+          <div class="career-path mt-5" aria-label="Linha de atuação executiva">
+            <span>TI</span>
+            <i></i>
+            <span>Arquitetura</span>
+            <i></i>
+            <span>CTO</span>
+            <i></i>
+            <span>IA</span>
+          </div>
+
+          <div class="mt-5 grid gap-3 sm:grid-cols-2">
+            <div class="metric-card">
+              <i class="metric-icon" data-lucide="history"></i>
+              <em>trajetória</em>
+              <strong class="count-up" data-target="20" data-suffix="+">0</strong>
+              <span>anos em TI</span>
+              <div class="mini-bar"><b style="width: 92%"></b></div>
+            </div>
+            <div class="metric-card">
+              <i class="metric-icon" data-lucide="badge-check"></i>
+              <em>liderança</em>
+              <strong class="count-up" data-target="6">0</strong>
+              <span>anos como CTO</span>
+              <div class="mini-bar"><b style="width: 68%"></b></div>
+            </div>
+            <div class="metric-card">
+              <i class="metric-icon" data-lucide="trending-down"></i>
+              <em>finops</em>
+              <strong class="count-up" data-target="55" data-suffix="%">0</strong>
+              <span>redução em custos cloud</span>
+              <div class="mini-bar"><b style="width: 55%"></b></div>
+            </div>
+            <div class="metric-card">
+              <i class="metric-icon" data-lucide="sparkles"></i>
+              <em>impacto</em>
+              <strong class="count-up" data-target="1" data-prefix="R$ " data-suffix="M">0</strong>
+              <span>saving anual</span>
+              <div class="mini-bar"><b style="width: 78%"></b></div>
+            </div>
+          </div>
+
+          <div class="impact-card mt-3 rounded-2xl border border-neon/40 bg-neon/12 p-4">
+            <div>
+              <p class="text-sm font-bold text-muted">Qualidade sistêmica</p>
+              <p class="mt-2 text-2xl font-black"><span class="count-up" data-target="5000" data-format="pt-BR">0</span> → <span class="count-up" data-target="40">0</span> incidentes anuais</p>
+            </div>
+            <div class="incident-compare" aria-hidden="true">
+              <span style="height: 100%"></span>
+              <span style="height: 8%"></span>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="impactos" class="section selected-work">
+        <div class="reveal mb-10 max-w-3xl">
+          <p class="eyebrow">Impactos selecionados</p>
+          <h2 class="section-title">Resultados que mostram tecnologia como força de negócio.</h2>
+        </div>
+
+        <div class="selected-list">
+          <article class="selected-item reveal">
+            <span>01</span>
+            <div>
+              <h3>Eficiência operacional</h3>
+              <p>Redução de falhas sistêmicas de 5.000 para 40 incidentes anuais, eliminando um passivo técnico represado por 3 anos.</p>
+            </div>
+          </article>
+          <article class="selected-item reveal">
+            <span>02</span>
+            <div>
+              <h3>FinOps e cloud</h3>
+              <p>Redução de 55% nos custos de infraestrutura, de R$ 75 mil para R$ 33 mil por mês, mantendo escalabilidade.</p>
+            </div>
+          </article>
+          <article class="selected-item reveal">
+            <span>03</span>
+            <div>
+              <h3>Delivery acelerado</h3>
+              <p>Construção e lançamento de 3 plataformas digitais corporativas em menos de 8 meses.</p>
+            </div>
+          </article>
+          <article class="selected-item reveal">
+            <span>04</span>
+            <div>
+              <h3>IA aplicada ao negócio</h3>
+              <p>Implementação de arquitetura orientada a dados e IA para ampliar previsibilidade, automação e eficiência operacional.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="competencias" class="section services-section">
+        <div class="reveal mb-10 max-w-3xl">
+          <p class="eyebrow">Serviços executivos</p>
+          <h2 class="section-title">Onde estratégia, arquitetura e execução se encontram.</h2>
+        </div>
+
+        <div class="grid gap-4 md:grid-cols-2">
+          <article class="skill-card reveal">
+            <span><i data-lucide="briefcase-business"></i>01</span>
+            <h3>Estratégia e Negócios</h3>
+            <p>CTO, liderança executiva B2B, Saúde e Benefícios, visão 360º do cliente, eficiência operacional e FinOps.</p>
+          </article>
+          <article class="skill-card reveal">
+            <span><i data-lucide="network"></i>02</span>
+            <h3>Arquitetura e Plataformas</h3>
+            <p>Integração de sistemas complexos, arquitetura de soluções, microsserviços, engenharia de software, AWS e Azure.</p>
+          </article>
+          <article class="skill-card reveal">
+            <span><i data-lucide="brain-circuit"></i>03</span>
+            <h3>Dados e Inteligência Artificial</h3>
+            <p>Estratégia de dados, analytics, adoção prática de IA, automação de processos, governança e segurança.</p>
+          </article>
+          <article class="skill-card reveal">
+            <span><i data-lucide="rocket"></i>04</span>
+            <h3>Entrega e Transformação</h3>
+            <p>Delivery acelerado, modernização tecnológica, redução de passivos críticos e estruturação de times e processos.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="sobre" class="section">
+        <div class="section-grid">
+          <div class="reveal">
+            <p class="eyebrow">Sobre</p>
+            <h2 class="section-title">Tecnologia como alavanca de eficiência, escala e governança.</h2>
+          </div>
+          <div class="reveal space-y-5 text-lg leading-8 text-muted">
+            <p>
+              Lidero estratégia tecnológica de ecossistemas B2B complexos, com
+              forte atuação nos setores de Saúde e Benefícios Corporativos. Como
+              parceiro do negócio, foco na integração de sistemas, estruturação
+              de dados e evolução de plataformas para visão 360º do cliente.
+            </p>
+            <p>
+              Impulsiono eficiência e escalabilidade por meio de arquiteturas
+              modernas, microsserviços, cloud AWS/Azure, analytics e adoção
+              prática de IA, sempre com governança, segurança e clareza de impacto.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experiencia" class="section">
+        <div class="reveal mb-10 max-w-3xl">
+          <p class="eyebrow">Experiência</p>
+          <h2 class="section-title">Trajetória em arquitetura, liderança e transformação digital.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-date">Dez/2021 – Presente</div>
+            <div class="timeline-body">
+              <h3>QBem (Grupo Quiver)</h3>
+              <p class="role">CTO | Arquiteto de Soluções Cloud & Inteligência Artificial</p>
+              <p class="experience-summary">
+                Liderando a evolução tecnológica de ecossistemas de Saúde e Seguros com foco em
+                inteligência artificial, dados e arquitetura cloud. Estruturando plataformas mais
+                escaláveis, previsíveis e eficientes para reduzir falhas críticas, otimizar custos
+                operacionais e acelerar a automação do negócio.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-date">Fev/2021 – Dez/2021</div>
+            <div class="timeline-body">
+              <h3>Grupo FCamara</h3>
+              <p class="role">Arquiteto de Sistemas | IT Leader | DevOps</p>
+              <p class="experience-summary">
+                Arquitetando soluções de alta disponibilidade para ambientes financeiros complexos.
+                Conduzindo iniciativas de integração, Open Insurance, cloud e DevOps para modernizar
+                produtos digitais, fortalecer a confiabilidade das entregas e aumentar a eficiência
+                técnica dos times.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-date">Mar/2019 – Fev/2021</div>
+            <div class="timeline-body">
+              <h3>Férias & Co.</h3>
+              <p class="role">CTO | Arquiteto de Soluções</p>
+              <p class="experience-summary">
+                Conduzindo a transformação digital de soluções B2B corporativas a partir de uma visão
+                integrada entre produto, tecnologia e operação. Liderando a criação de plataformas
+                digitais com foco em time-to-market, escala e geração de valor para clientes empresariais.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-date">Jan/2019 – Mar/2019</div>
+            <div class="timeline-body">
+              <h3>Veloe</h3>
+              <p class="role">Arquiteto de Soluções Sênior</p>
+              <p class="experience-summary">
+                Otimizando a comunicação entre sistemas de uma plataforma SaaS por meio de arquitetura
+                de microsserviços. Criando caminhos técnicos para elevar a eficiência operacional,
+                reduzir acoplamentos e sustentar a evolução de produtos digitais em escala.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-date">Jan/2017 – Jan/2019</div>
+            <div class="timeline-body">
+              <h3>Dasa</h3>
+              <p class="role">Arquiteto de Soluções</p>
+              <p class="experience-summary">
+                Desenvolvendo soluções de alta complexidade para um dos maiores ecossistemas de saúde
+                do Brasil. Integrando APIs, SaaS, cloud Azure e chatbots para melhorar a jornada do
+                cliente, automatizar processos e aproximar inovação tecnológica da operação assistencial.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-date">Jun/2013 – Dez/2016</div>
+            <div class="timeline-body">
+              <h3>Banco PAN</h3>
+              <p class="role">Arquiteto de Soluções Sênior</p>
+              <p class="experience-summary">
+                Estruturando a base tecnológica do setor digital do banco em um momento pioneiro de
+                transformação. Liderando a arquitetura de integrações e microsserviços para criar uma
+                fundação segura, escalável e preparada para novos canais e produtos financeiros.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="formacao" class="section">
+        <div class="grid gap-4 lg:grid-cols-3">
+          <article class="info-card reveal lg:col-span-2">
+            <p class="eyebrow">Cursos e formações complementares</p>
+            <ul class="compact-list">
+              <li>Processamento Neural de Linguagem Natural em Português | USP (Em andamento)</li>
+              <li>Introdução aos Princípios e Práticas da Gestão de Projetos | USP</li>
+              <li>Introduction to Mathematical Thinking | Stanford University</li>
+              <li>Problem Solving Using Computational Thinking | University of Michigan</li>
+            </ul>
+          </article>
+
+          <article class="info-card reveal">
+            <p class="eyebrow">Idiomas</p>
+            <ul class="compact-list">
+              <li>Inglês: Intermediário (B1)</li>
+              <li>Espanhol: Profissional avançado</li>
+              <li>Chinês: Básico</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="contato" class="mx-auto w-[min(1120px,calc(100%-32px))] pb-20 pt-8">
+        <div class="reveal rounded-[1.75rem] border border-graphite/10 bg-graphite p-8 text-paper shadow-soft md:p-12">
+          <p class="text-sm font-black uppercase tracking-[0.16em] text-neon">Contato</p>
+          <h2 class="mt-4 max-w-3xl text-4xl font-black leading-tight tracking-tight md:text-5xl">
+            Disponível para conversas sobre liderança tecnológica, arquitetura e IA aplicada.
+          </h2>
+          <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <a class="button-light" href="mailto:camilotxm@gmail.com"><i data-lucide="send"></i>camilotxm@gmail.com</a>
+            <a class="button-icon" href="https://linkedin.com/in/camilo-de-melo" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.35V8.98h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.3ZM5.34 7.41a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12Zm1.78 13.04H3.56V8.98h3.56v11.47ZM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0Z" />
+              </svg>
+            </a>
+            <a class="button-icon" href="https://github.com/otechmista" target="_blank" rel="noreferrer" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 .3a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.24c-3.34.73-4.04-1.42-4.04-1.42-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.49 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0 0 12 .3Z" />
+              </svg>
+            </a>
+            <a class="button-icon" href="https://x.com/otechmista" target="_blank" rel="noreferrer" aria-label="X">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M18.9 1.15h3.68l-8.04 9.19L24 22.85h-7.41l-5.8-7.59-6.64 7.59H.47l8.6-9.83L0 1.15h7.59l5.24 6.93 6.07-6.93Zm-1.29 19.5h2.04L6.48 3.24H4.29l13.32 17.41Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mx-auto flex w-[min(1120px,calc(100%-32px))] flex-col gap-2 border-t border-line py-8 text-sm text-muted sm:flex-row sm:items-center sm:justify-between">
+      <span>Camilo Melo</span>
+      <span>Chief Technology Officer</span>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

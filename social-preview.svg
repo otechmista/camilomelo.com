@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Camilo Melo | Chief Technology Officer</title>
+  <desc id="desc">Imagem social do CV online de Camilo Melo.</desc>
+  <defs>
+    <radialGradient id="glowA" cx="78%" cy="24%" r="42%">
+      <stop offset="0%" stop-color="#E94B78" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#E94B78" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0B0C10" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="18%" cy="78%" r="38%">
+      <stop offset="0%" stop-color="#8FDDE5" stop-opacity="0.36"/>
+      <stop offset="100%" stop-color="#0B0C10" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0B0C10"/>
+  <rect width="1200" height="630" fill="url(#glowA)"/>
+  <rect width="1200" height="630" fill="url(#glowB)"/>
+  <g opacity="0.2" stroke="#F6F2EA" stroke-width="1">
+    <path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200M0 540H1200"/>
+    <path d="M120 0V630M240 0V630M360 0V630M480 0V630M600 0V630M720 0V630M840 0V630M960 0V630M1080 0V630"/>
+  </g>
+  <g fill="none" stroke-linecap="round">
+    <path d="M760 154L850 216L930 180L1016 264L960 342L1046 420" stroke="#8FDDE5" stroke-opacity="0.55" stroke-width="2"/>
+    <path d="M710 328L808 290L892 368L998 342" stroke="#E94B78" stroke-opacity="0.55" stroke-width="2"/>
+    <path d="M790 460L880 412L972 484" stroke="#FFD6A5" stroke-opacity="0.45" stroke-width="2"/>
+  </g>
+  <g>
+    <circle cx="760" cy="154" r="8" fill="#8FDDE5"/>
+    <circle cx="850" cy="216" r="5" fill="#E94B78"/>
+    <circle cx="930" cy="180" r="9" fill="#8FDDE5"/>
+    <circle cx="1016" cy="264" r="6" fill="#E94B78"/>
+    <circle cx="960" cy="342" r="10" fill="#8FDDE5"/>
+    <circle cx="1046" cy="420" r="6" fill="#E94B78"/>
+    <circle cx="710" cy="328" r="7" fill="#E94B78"/>
+    <circle cx="808" cy="290" r="5" fill="#8FDDE5"/>
+    <circle cx="892" cy="368" r="8" fill="#E94B78"/>
+    <circle cx="790" cy="460" r="5" fill="#8FDDE5"/>
+    <circle cx="880" cy="412" r="7" fill="#FFD6A5"/>
+    <circle cx="972" cy="484" r="5" fill="#E94B78"/>
+  </g>
+  <text x="72" y="112" fill="#E94B78" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900" letter-spacing="5">CTO | AI | CLOUD | ARCHITECTURE</text>
+  <text x="72" y="242" fill="#F6F2EA" font-family="Inter, Arial, sans-serif" font-size="86" font-weight="900">Camilo Melo</text>
+  <text x="72" y="328" fill="#F6F2EA" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="800">Chief Technology Officer</text>
+  <text x="72" y="410" fill="#A9A39A" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="600">Liderança tecnológica para ecossistemas B2B complexos.</text>
+  <text x="72" y="496" fill="#FFD6A5" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800">IA aplicada • Cloud • FinOps • Dados • Microsserviços</text>
+</svg>
